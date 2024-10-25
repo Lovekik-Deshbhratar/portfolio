@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  color: var(--foreground);
+  background: #0c0c0c;
+  background-image: radial-gradient(#3e3e3e 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
