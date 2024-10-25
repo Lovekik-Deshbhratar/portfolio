@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        typeography: "#828282",
+        breaker: "#3E3E3E",
+      },
+      gridTemplateColumns: {
+        "17": "repeat(17, minmax(0, 1fr))",
+        "19": "repeat(19, minmax(0, 1fr))",
       },
     },
   },
