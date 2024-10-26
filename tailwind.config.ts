@@ -19,6 +19,11 @@ const config: Config = {
         "19": "repeat(19, minmax(0, 1fr))",
       },
     },
+    screens: {
+      xs: "425px",
+
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   plugins: [],
 };

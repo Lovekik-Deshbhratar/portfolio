@@ -29,17 +29,19 @@ export default function Home() {
             Online.
           </h1>
         </div>
-        <div className="mt-3">
-          <h1 className="relative text-4xl font-extrabold tracking-wide after:absolute after:w-[8.8rem] after:h-4 after:bg-violet-500 after:bottom-0 after:left-[9.4rem] after:-rotate-[1.5deg] after:-z-10">
-            Hey, I'm Lovekik
-          </h1>
+        <div className="text-3xl xs:text-4xl">
+          <div className="mt-3">
+            <h1 className="relative font-extrabold tracking-wide after:absolute after:w-[7.5rem] after:h-4 after:bg-violet-500 after:bottom-0 after:left-[7.99rem] after:-rotate-[1.5deg] after:-z-10 xs:after:absolute xs:after:w-[8.8rem] xs:after:h-4 xs:after:bg-violet-500 xs:after:bottom-0 xs:after:left-[9.68rem] xs:after:-rotate-[1.5deg] xs:after:-z-10">
+              Hey, I'm Lovekik
+            </h1>
+          </div>
+          <div className="xs:mt-2 mt-1.5">
+            <h1 className="font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r to-pink-500 from-violet-500">
+              Fullstack Developer.
+            </h1>
+          </div>
         </div>
-        <div className="mt-2">
-          <h1 className="text-4xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r to-pink-500 from-violet-500">
-            Fullstack Developer.
-          </h1>
-        </div>
-        <div className="flex gap-3 text-xs mt-7">
+        <div className="flex gap-3 text-xs mt-6 xs:mt-7">
           <a
             href="https://www.linkedin.com/in/lovekik-deshbhratar-6b5b7923a"
             target="_blank"
