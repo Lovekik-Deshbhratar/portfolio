@@ -6,9 +6,40 @@ import { LuMail } from "react-icons/lu";
 import ProjectCard from "@/components/ProjectCard";
 import { SiTypescript } from "react-icons/si";
 import TechCard from "@/components/TechCard";
-import { RiNextjsFill, RiTailwindCssFill, RiReactjsFill } from "react-icons/ri";
+import {
+  RiNextjsFill,
+  RiTailwindCssFill,
+  RiReactjsFill,
+  RiInstagramFill,
+  RiWhatsappFill,
+  RiLinkedinBoxFill,
+  RiGithubFill,
+} from "react-icons/ri";
 import { ArrowUpRight } from "lucide-react";
 import CardSlider from "@/components/CardSlider";
+import { SiVercel } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { FaReact, FaNode, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiSpring,
+  SiPython,
+  SiPostman,
+  SiOpenai,
+  SiSpotify,
+  SiFigma,
+  SiEclipseide,
+  SiGitforwindows,
+  SiGithub,
+} from "react-icons/si";
+import { SiJsonwebtokens } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
+import { DiDjango } from "react-icons/di";
+import { VscVscode } from "react-icons/vsc";
+import { IoLogoChrome } from "react-icons/io";
 
 export default function Home() {
   return (
@@ -18,8 +49,8 @@ export default function Home() {
           <BsGrid size={25} />
         </div>
       </div> */}
-      <div className=" md:flex md:justify-center md:items-center md:mt-[7rem]">
-        <div className="md:w-[28rem] lg:w-[36rem] 2xl:w-[39rem] md:ml-5 lg:ml-0">
+      <div className=" md:flex md:justify-center md:items-center md:pt-[8.2rem] md:pb-[3rem]">
+        <div className="md:w-[28rem] lg:w-[36rem] 2xl:w-[39rem]">
           <div className="flex items-center bg-green-500/25 w-fit rounded-full text-green-400 p-1">
             <div className="ml-1">
               <span className="relative flex h-3 w-3">
@@ -33,7 +64,7 @@ export default function Home() {
           </div>
           <div className="text-3xl xs:text-4xl md:text-[2.6rem] lg:text-5xl 2xl:text-6xl mt-5">
             <div className="">
-              <h1 className="relative font-extrabold tracking-wide after:absolute after:w-[7.5rem] after:h-4 after:bg-violet-500 after:bottom-0 after:left-[7.99rem] after:-rotate-[1.5deg] after:-z-10 xs:after:absolute xs:after:w-[8.8rem] xs:after:h-4 xs:after:bg-violet-500 xs:after:bottom-0 xs:after:left-[9.68rem] xs:after:-rotate-[1.5deg] xs:after:-z-10">
+              <h1 className="relative font-extrabold tracking-wide after:absolute after:w-[7.5rem] after:h-4 after:bg-violet-500 after:bottom-0 after:left-[7.99rem] after:-rotate-[1.5deg] after:-z-10  xs:after:w-[8.8rem] xs:after:h-4  xs:after:bottom-0 xs:after:left-[9.68rem]  md:after:w-[10.2rem] md:after:h-[1.1rem]  md:after:inset-[1.55rem] md:after:left-[11.2rem]  lg:after:w-[12rem] lg:after:h-[1.3rem] lg:after:inset-[1.8rem] lg:after:left-[12.75rem]   2xl:after:w-[14.96rem] 2xl:after:h-[1.5rem] 2xl:after:inset-[2.3rem] 2xl:after:left-[16rem]">
                 Hey, I'm Lovekik
               </h1>
             </div>
@@ -59,7 +90,7 @@ export default function Home() {
               <FaGithub size={20} /> <span>Github</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/lovekik-deshbhratar-6b5b7923a"
+              href="mailto:lovekikdeshbhratar@gmail.com"
               target="_blank"
               className="flex items-center space-x-2 bg-[#2D2F33] w-fit rounded-full py-2.5 2xl:py-3.5 md:py-3 px-4 md:px-6 2xl:px-7 hover:scale-110 hover:text-black hover:bg-white transition-transform duration-200"
             >
@@ -150,10 +181,13 @@ export default function Home() {
                   "Tour Booking web application with features like real-time booking, authentication and more."
                 }
                 skillsLogo={[
-                  <SiTypescript />,
-                  <SiTypescript className="text-red-400" />,
-                  <SiTypescript />,
-                  <SiTypescript />,
+                  <FaReact className="text-[#58C4DC]" />,
+                  <SiJavascript className="text-[#F7E025]" />,
+                  <RiTailwindCssFill className="text-[#38BDF8]" />,
+                  <FaNode className="text-[#4E9B43]" />,
+                  <SiExpress className="text-black" />,
+                  <SiMongodb className="text-[#00FE69]" />,
+                  <SiJsonwebtokens className="text-[#F20C78]" />,
                 ]}
                 link="https://tours-and-travel-ten.vercel.app/"
               />
@@ -163,10 +197,13 @@ export default function Home() {
                   "Educational app for swift certificate and form issuance with streamlined verification."
                 }
                 skillsLogo={[
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
+                  <FaReact className="text-[#58C4DC]" />,
+                  <SiJavascript className="text-[#F7E025]" />,
+                  <RiTailwindCssFill className="text-[#38BDF8]" />,
+                  <FaNode className="text-[#4E9B43]" />,
+                  <SiExpress className="text-black" />,
+                  <SiMongodb className="text-[#00FE69]" />,
+                  <SiJsonwebtokens className="text-[#F20C78]" />,
                 ]}
                 link=""
               />
@@ -176,10 +213,10 @@ export default function Home() {
                   "Personla portfolio website developed using Next.js and TailwindCSS and CSS animations."
                 }
                 skillsLogo={[
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
+                  <SiNextdotjs />,
+                  <SiTypescript className="text-[#087ED1]" />,
+                  <SiVercel className="text-black" />,
+                  <RiTailwindCssFill className="text-[#38BDF8]" />,
                 ]}
                 link="https://portfolio-lovekik-deshbhratar.vercel.app/"
               />
@@ -189,10 +226,9 @@ export default function Home() {
                   "Task manager app with title, description fields, validation, and local storage for organizing."
                 }
                 skillsLogo={[
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
-                  <SiTypescript />,
+                  <FaReact className="text-[#58C4DC]" />,
+                  <SiJavascript className="text-[#F7E025]" />,
+                  <RiTailwindCssFill className="text-[#38BDF8]" />,
                 ]}
                 link="https://task-manage-omega.vercel.app/"
               />
@@ -204,24 +240,86 @@ export default function Home() {
               Tech
             </h1>
             <div className="grid grid-cols-3 gap-3 mt-4 md:mt-5 lg:mt-6">
-              <TechCard icon={<RiNextjsFill />} title="Next" />
               <TechCard
-                icon={<RiTailwindCssFill className="hover:text-blue-400" />}
-                title="Tailwind"
+                icon={<RiNextjsFill />}
+                title="Next"
+                className="hover:text-black"
               />
-              <TechCard icon={<RiReactjsFill />} title="React" />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
+              <TechCard
+                icon={<RiTailwindCssFill />}
+                title="Tailwind"
+                className="hover:text-[#38BDF8]"
+              />
+              <TechCard
+                className="hover:text-[#58C4DC]"
+                icon={<RiReactjsFill />}
+                title="React"
+              />
+              <TechCard
+                className="hover:text-[#4E9B43]"
+                icon={<FaNode />}
+                title="Node"
+              />
+              <TechCard
+                className="hover:text-black"
+                icon={<SiExpress />}
+                title="Express"
+              />
+              <TechCard
+                className="hover:text-[#00FE69]"
+                icon={<SiMongodb />}
+                title="MongoDB"
+              />
+              <TechCard
+                className="hover:text-[#2F79E3]"
+                icon={<TbApi />}
+                title="REST "
+              />
+              <TechCard
+                className="hover:text-black"
+                icon={<DiDjango />}
+                title="Django"
+              />
+              <TechCard
+                className="hover:text-[#79BF34]"
+                icon={<SiSpring />}
+                title="Spring Boot"
+              />
+              <TechCard
+                className="hover:text-[#F2811D]"
+                icon={<FaJava />}
+                title="Java"
+              />
+              <TechCard
+                className="hover:text-[#387CA6]"
+                icon={<SiPython />}
+                title="Python "
+              />
+              <TechCard
+                className="hover:text-[#087ED1]"
+                icon={<SiTypescript />}
+                title="TypeScript "
+              />
+              <TechCard
+                className="hover:text-[#6393A6]"
+                icon={<SiMysql />}
+                title="MySQK"
+              />
+              <TechCard
+                className="hover:text-[#F7E025]"
+                icon={<SiJavascript />}
+                title="JavaScript"
+              />
+              <TechCard
+                className="hover:text-[#E5532D]"
+                icon={<FaHtml5 />}
+                title="HTML "
+              />
+              <TechCard
+                className="hover:text-[#2D53E5]"
+                icon={<FaCss3Alt />}
+                title="CSS"
+              />
             </div>
           </div>
           <hr className="border border-breaker mt-6 lg:mt-7" />
@@ -230,18 +328,51 @@ export default function Home() {
               Uses
             </h1>
             <div className="grid grid-cols-3 gap-3 mt-4 md:mt-5 lg:mt-6">
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
-              <TechCard icon={<RiNextjsFill />} title="Next" />
-              <TechCard icon={<RiTailwindCssFill />} title="Tailwind" />
-              <TechCard icon={<RiReactjsFill />} title="React " />
+              <TechCard
+                className="hover:text-[#22A6F2]"
+                icon={<VscVscode />}
+                title="VS Code"
+              />
+              <TechCard
+                className="hover:text-[#F27E7E]"
+                icon={<SiGitforwindows />}
+                title="Git"
+              />
+              <TechCard
+                className="hover:text-white/90"
+                icon={<SiGithub />}
+                title="GitHub"
+              />
+              <TechCard
+                className="hover:text-[#FF6C37]"
+                icon={<SiPostman />}
+                title="Postman"
+              />
+              <TechCard
+                className="hover:text-[#18A683]"
+                icon={<SiOpenai />}
+                title="ChatGPT "
+              />
+              <TechCard
+                className="hover:text-[#2C2255]"
+                icon={<SiEclipseide />}
+                title="Eclipse IDE"
+              />
+              <TechCard
+                className="hover:text-[#9857F2]"
+                icon={<SiFigma />}
+                title="Figma"
+              />
+              <TechCard
+                className="hover:text-[#D93030]"
+                icon={<IoLogoChrome />}
+                title="Google Chrome"
+              />
+              <TechCard
+                className="hover:text-[#1ED760]"
+                icon={<SiSpotify />}
+                title="Spotify "
+              />
             </div>
           </div>
           <hr className="border border-breaker mt-6 lg:mt-7" />
@@ -259,7 +390,7 @@ export default function Home() {
               Thanks for scrolling.
             </h1>
             <a
-              href="https://www.linkedin.com/in/lovekik-deshbhratar-6b5b7923a"
+              href="./Lovekik_Deshbhratar_7769014011.pdf"
               target="_blank"
               className="flex items-center space-x-2 bg-[#2D2F33] w-fit rounded-full py-2.5 px-4 hover:scale-110 hover:text-black hover:bg-white transition-transform duration-200 mt-4"
             >
@@ -267,6 +398,36 @@ export default function Home() {
               <span className="">
                 <ArrowUpRight size={20} />
               </span>
+            </a>
+          </div>
+          <div className="flex text-2xl md:text-[1.8rem] gap-4 justify-end">
+            <a
+              href="https://github.com/Lovekik-Deshbhratar"
+              target="_blank"
+              className=""
+            >
+              <RiGithubFill />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lovekik-deshbhratar-6b5b7923a"
+              target="_blank"
+              className="text-[#1570BF] "
+            >
+              <RiLinkedinBoxFill />
+            </a>
+            <a
+              href="https://www.instagram.com/__lucky.d_/profilecard/?igsh=dXYxd291N2tqa2tq"
+              target="_blank"
+              className="text-[#EC4B7A] "
+            >
+              <RiInstagramFill />
+            </a>
+            <a
+              href="http://wa.me/7769014011"
+              target="_blank"
+              className="text-[#41BF49] "
+            >
+              <RiWhatsappFill />
             </a>
           </div>
         </div>
