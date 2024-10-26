@@ -24,7 +24,10 @@ const ProjectCard = ({ title, description, skillsLogo, link }: Props) => {
       <div className="flex mt-2.5 gap-2.5 md:gap-3 lg:gap-3.5 lg:mt-3 md:mt-[0.65rem]">
         {skillsLogo.map((item, key) => {
           return (
-            <span key={key} className="text-[1.05rem] md:text-lg lg:text-xl">
+            <span
+              key={key}
+              className="text-[0.78rem] xs:text-[1rem] md:text-[1.06rem] lg:text-xl"
+            >
               {item}
             </span>
           );
