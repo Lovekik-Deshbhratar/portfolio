@@ -5,10 +5,12 @@ interface Props {
 
 const TechCard = ({ icon, title }: Props) => {
   return (
-    <div className="p-7 rounded-lg bg-[#26282B] hover:bg-white hover:text-black">
-      <div className="flex flex-col items-center ">
-        <h1 className="w-fit text-4xl">{icon}</h1>
-        <h1 className="w-fit text-xs font-semibold mt-2">{title}</h1>
+    <div className="rounded-lg bg-[#26282B] hover:bg-[#1B1E1F] transition ease-in-out duration-300 px-5 py-6 lg:px-5 lg:py-10">
+      <div className="flex flex-col items-center">
+        <h1 className="text-4xl  md:text-5xl">{icon}</h1>
+        <h1 className="text-xs font-semibold mt-2 md:mt-3 md:text-sm">
+          {title}
+        </h1>
       </div>
     </div>
   );
