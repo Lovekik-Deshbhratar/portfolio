@@ -397,7 +397,7 @@ export default function Home() {
               </span>
             </a>
           </div>
-          <div className="flex text-2xl md:text-[1.8rem] gap-4 justify-end">
+          <div className="flex text-3xl md:text-[2rem] gap-4 justify-end">
             <a
               href="https://github.com/Lovekik-Deshbhratar"
               target="_blank"

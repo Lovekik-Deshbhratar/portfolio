@@ -98,12 +98,14 @@ const CardSlider = () => {
           </div>
         </div>
       </div>
-      <button
-        onClick={goToNext}
-        className="border border-[#2c2c2c] ml-5 xs:ml-6 lg:ml-14 xl:ml-9 2xl:ml-[3.9rem] text-[#494949] py-2 px-2 xs:py-2.5 xs:px-2.5 md:py-3 md:px-3 lg:py-3.5 lg:px-3.5 text-[1.7rem] rounded-full hover:bg-[#2c2c2c] hover:text-black transition ease-in-out duration-300"
-      >
-        <IoIosArrowForward />
-      </button>
+      <div className="flex justify-end">
+        <button
+          onClick={goToNext}
+          className="border border-[#2c2c2c] mr-5 xs:mr-6 lg:mr-14 xl:mr-9 2xl:mr-[3.9rem] text-[#494949] py-2 px-2 xs:py-2.5 xs:px-2.5 md:py-3 md:px-3 lg:py-3.5 lg:px-3.5 text-[1.7rem] rounded-full hover:bg-[#2c2c2c] hover:text-black transition ease-in-out duration-300"
+        >
+          <IoIosArrowForward />
+        </button>
+      </div>
     </div>
   );
 };
