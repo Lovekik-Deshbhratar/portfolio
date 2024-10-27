@@ -182,12 +182,10 @@ export default function Home() {
                 }
                 skillsLogo={[
                   <FaReact className="text-[#58C4DC]" />,
-                  <SiJavascript className="text-[#F7E025]" />,
                   <RiTailwindCssFill className="text-[#38BDF8]" />,
                   <FaNode className="text-[#4E9B43]" />,
                   <SiExpress className="text-black" />,
                   <SiMongodb className="text-[#00FE69]" />,
-                  <SiJsonwebtokens className="text-[#F20C78]" />,
                 ]}
                 link="https://tours-and-travel-ten.vercel.app/"
               />
@@ -198,12 +196,10 @@ export default function Home() {
                 }
                 skillsLogo={[
                   <FaReact className="text-[#58C4DC]" />,
-                  <SiJavascript className="text-[#F7E025]" />,
                   <RiTailwindCssFill className="text-[#38BDF8]" />,
                   <FaNode className="text-[#4E9B43]" />,
                   <SiExpress className="text-black" />,
                   <SiMongodb className="text-[#00FE69]" />,
-                  <SiJsonwebtokens className="text-[#F20C78]" />,
                 ]}
                 link=""
               />
