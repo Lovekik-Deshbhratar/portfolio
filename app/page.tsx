@@ -225,6 +225,7 @@ export default function Home() {
                   <FaReact className="text-[#58C4DC]" />,
                   <SiJavascript className="text-[#F7E025]" />,
                   <RiTailwindCssFill className="text-[#38BDF8]" />,
+                  <SiVercel className="text-black" />,
                 ]}
                 link="https://task-manage-omega.vercel.app/"
               />
