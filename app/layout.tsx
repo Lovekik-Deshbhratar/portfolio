@@ -23,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className}>
-      <body className="p-3 md:p-0">{children}</body>
+    <html id="home" lang="en" className="!scroll-smooth">
+      <body className={`${inter.className} p-3 md:p-0`}>{children}</body>
     </html>
   );
 }
