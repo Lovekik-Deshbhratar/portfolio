@@ -44,31 +44,31 @@ import { VscVscode } from "react-icons/vsc";
 import { IoLogoChrome } from "react-icons/io";
 import CopyEmailCard from "@/components/CopyEmailCard";
 import { motion } from "framer-motion";
+import NavBar from "@/components/NavBar";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  useEffect(() => {
+    if (window.location.hash) {
+      window.history.replaceState(null, "", window.location.pathname);
+      window.scrollTo({ top: 0 });
+    }
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
       className=""
     >
-      {/* <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1, transition: { delay: 0.1 } }}>
-        <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1, transition: { delay: 0.1 } }} className="border-">
-          <BsGrid size={25} />
-        </motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1, transition: { delay: 0.1 } }}>
-      </motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1, transition: { delay: 0.1 } }}> */}
+      <div>
+        <NavBar />
+      </div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
-        className=" md:flex md:justify-center md:items-center md:pt-[8.2rem] md:pb-[3rem]"
+        className=" md:flex md:justify-center md:items-center md:pt-[8.2rem] md:pb-[3rem] mt-10"
       >
         <motion.div
           initial={{ opacity: 0 }}
@@ -121,7 +121,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
-            className="flex gap-3 text-xs md:text-sm 2xl:text-base mt-7 md:mt-9  2xl:mt-11"
+            className="flex gap-3 text-xs md:text-sm 2xl:text-base mt-7 md:mt-9 2xl:mt-11 "
           >
             <a
               href="https://www.linkedin.com/in/lovekik-deshbhratar-6b5b7923a"
@@ -343,6 +343,7 @@ export default function Home() {
           </motion.div>
           <hr className="border border-breaker mt-1 md:mt-4" />
           <motion.div
+            id="project"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
             className="mt-5 md:mt-6"
@@ -413,6 +414,7 @@ export default function Home() {
           </motion.div>
           <hr className="border border-breaker mt-6 lg:mt-7" />
           <motion.div
+            id="skill"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
             className="mt-5 md:mt-6"
@@ -587,6 +589,7 @@ export default function Home() {
           </motion.div>
           <hr className="border border-breaker mt-6 lg:mt-7" />
           <motion.div
+            id="contact"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
             className="mt-6 lg:mt-7"
