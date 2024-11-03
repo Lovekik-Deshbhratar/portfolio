@@ -513,7 +513,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { delay: 0.1 } }}
-            className="mt-5 md:mt-6"
+            className="mt-5 md:mt-6 "
           >
             <h1 className="text-2xl font-semibold tracking-wide lg:text-[1.55rem] 2xl:text-[1.67rem]">
               Uses

@@ -14,3 +14,8 @@ body {
   background-size: 40px 40px;
   background-position: -19px -19px;
 }
+
+body,
+html {
+  overflow-x: hidden;
+}
