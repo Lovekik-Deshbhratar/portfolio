@@ -609,7 +609,7 @@ export default function Home() {
               target="_blank"
               className="flex items-center space-x-2 bg-[#2D2F33] w-fit rounded-full py-2.5 px-4 hover:scale-110 hover:text-black hover:bg-white transition-transform duration-200 mt-4"
             >
-              <span>Resume </span>{" "}
+              <span>Resume </span>
               <span className="">
                 <ArrowUpRight size={20} />
               </span>
